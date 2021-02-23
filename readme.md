@@ -15,3 +15,5 @@ Here's what Alan said about that code:
 
 
 So if you fancy a refactoring challenge, this could be a good place to start.
+
+Edit 2021: updated to work with current versions of Visual Studio and Nunit

@@ -1,14 +1,18 @@
-using System;
-using System.IO;
 using NUnit.Framework;
+using System;
 
-namespace Tests
+namespace AmazingTests
 {
 	[TestFixture]
-	public class AmazingTests
-	{
+	public class Tests
+    {
+        [SetUp]
+        public void Setup()
+        {
+        }
+
 		[Test]
-		public void Seed0size15x20() 
+		public void Seed0size15x20()
 		{
 			String expected = @"Amazing - Copyright by Creative Computing, Morristown, NJ
 :--:--:--:--:--:--:--:--:--:--:  :--:--:--:--:
@@ -61,7 +65,7 @@ I                 I  I     I     I           I
 		}
 
 		[Test]
-		public void Seed100size4x5() 
+		public void Seed100size4x5()
 		{
 			String expected = @"Amazing - Copyright by Creative Computing, Morristown, NJ
 :--:--:--:  :
